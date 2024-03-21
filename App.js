@@ -42,7 +42,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    margin: 15,
+    margin: 30,
+    marginBottom:20
   },
   headertext:{
     alignItems:'center',
