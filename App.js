@@ -27,10 +27,10 @@ export default function App() {
       </View>
       <View>
             <Text style={styles.textcontent}>SEMESTER GRADES</Text>
-            <Text>Mobile Device Programming :  A+</Text>
-            <Text>Probabilty and Statistics :  A-</Text>
-            <Text>Java Programming : B</Text>
-            <Text>Database Systems : B+</Text>
+            <Text style={styles.innertext}>Mobile Device Programming :  A+</Text>
+            <Text style={styles.innertext}>Probabilty and Statistics :  A-</Text>
+            <Text style={styles.innertext}>Java Programming : B</Text>
+            <Text style={styles.innertext}>Database Systems : B+</Text>
             
 
       </View>
@@ -72,8 +72,12 @@ const styles = StyleSheet.create({
   },
 
   textcontent:{
-    fontWeight: 500,
+    fontStyle:'bold',
+    color:'black',
     alignItems:'flex-start',
     justifyContent: 'flex-start'
+  },
+  innertext:{
+    color:'#555'
   }
 });

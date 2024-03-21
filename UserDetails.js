@@ -19,7 +19,8 @@ const styles = StyleSheet.create({
     marginBottom: '20px'
   },
   label: {
-    fontWeight: 500
+    fontStyle:'normal'
+
   },
   value: {
     color: '#666'
